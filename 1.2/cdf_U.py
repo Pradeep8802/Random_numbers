@@ -21,7 +21,7 @@ for i in range(0,30):
 #Uniform random variable cdf for a=0 and b=1 in the definition of uniform random variable
 def cdfUniform(x):
 	if(x<=0):
-			x=0
+		x=0
 	elif(x>1):
 		x=1
 	return x
