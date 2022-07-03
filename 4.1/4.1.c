@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-void gaussian(char *str, int len)
+void triangular(char *str, int len)
 {
 int i,j;
 double temp;
@@ -25,5 +25,5 @@ fclose(fp);
 
 }
 int main(){
-gaussian("fourth1.dat", 1000000);
+triangular("fourth1.dat", 1000000);
 return 0;}
