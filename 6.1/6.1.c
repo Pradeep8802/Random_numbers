@@ -1,4 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <time.h>
+#include"coeffs.h"
 
+
+int main(){
+    Chi("Chi.dat",2,1000000);
+    return 0;}
 void gaussianadd(char *str1,char *str2,char *str,int len)
 {
 int i=0,c;
