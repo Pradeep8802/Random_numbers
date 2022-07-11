@@ -32,6 +32,8 @@ Vect_num = scipy.vectorize(numerical, otypes=['float'])
 
 Q_func = scipy.vectorize(Q)
 
+# plt.semilogy(A, Vect_num(A),'x')
+# plt.semilogy(A.T,Q_func(A))
 plt.plot(A, Vect_num(A),'x')
 plt.plot(A.T,Q_func(A))
 
@@ -49,3 +51,4 @@ plt.legend(["Numerical","Theoritical"])
 #subprocess.run(shlex.split("termux-open ../gau_cdf.pdf"))
 #else
 plt.show() #opening the plot window
+# plt.semilogy()
